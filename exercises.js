@@ -18,6 +18,36 @@ A literal object.
  "My dog `name` is `age` year old likes to `speak`."
  */ 
 
+var dog = {
+ pupName: "Capt Amerigo Vespuppy, Esq, III",
+ pupAge: 3,
+ isVegeterian: false,
+ dogColor: ["black", "tan"],
+ canSpeak: "woof!",
+
+};
+
+console.log(dog.pupName);
+console.log(dog.pupAge);
+console.log(dog.canSpeak);
+
+console.log ("My dog " + dog.pupName + " is " + dog.pupAge + " years old & likes to " + dog.canSpeak);
+
+
+var bigDog = {
+bigName: "Batman",
+bigAge: 8,
+bigVegetarian: true,
+bigColor: ["white", "black"],
+bigSpeak: "bark!"
+
+};
+
+console.log(bigDog.bigName);
+console.log(bigDog.bigName);
+console.log(bigDog.bigSpeak);
+
+console.log ("My dog " + bigDog.bigName + " is " + dog.pupAge + " years old & likes to " + dog.canSpeak);
 
 /*
 An empty object
@@ -32,6 +62,44 @@ An empty object
   Console.log the object.
 */
 
+var kicks = {};
+
+kicks.brand = "Adidas";
+kicks.color = "red";
+kicks.size = 9.5;
+kicks.buy = "Hell Yeah!";
+
+console.log("kicks:", kicks);
+
+
+var bike = {};
+
+bike.colorRed = true;
+bike.modelYear = 2018;
+bike.modelName = "FZ07";
+bike.hasFeatures = ["Power Modes", "ABS", "traction control"];
+
+console.log("bike;", bike);
+
+
+var airBnb = {};
+
+airBnb.hasAmenities = ["gym", "pool"];
+airBnb.placeName = "River Valley";
+airBnb.numberOfbedrooms = 1;
+airBnb.separateLivingroom = true;
+
+console.log("airBnb;", airBnb);
+
+
+var singapore = {};
+
+singapore.isHumid = true;
+singapore.whenGoing = 2017;
+singapore.placesTovisit = ["Gardens By The Bay;", "Marina Bay"];
+singapore.cityAreas = ["Chinatown", "Little India", "Tiong Bahru", "Orchard St"];
+
+console.log("singapore;", singapore);
 
 /* 
    Declare a variable named `plainBox` and set its value to be an EMPTY object.
@@ -41,6 +109,22 @@ An empty object
             - add a property named `contents` and set it to be an empty array.
 */
 
+var plainBox = {};
+
+plainBox.color = "black";
+plainBox.size = "18";
+plainBox.contents = [];
+
+console.log("plainBox:", plainBox);
+
+
+var colorBox = {};
+
+colorBox.color = "red";
+colorBox.size = 2;
+colorBox.contents = ["toothbrush", "quark", "1973 Nova"];
+
+console.log("colorBox:", colorBox);
 
 /*
    Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:
@@ -51,6 +135,17 @@ An empty object
             - add a key named `passengers` and set it to be an empty array.
 */
 
+var stockCar = {
+
+model : "Tesla",
+year : 2015,
+automaticTransmission : true,
+driver : null,
+passengers : [],
+
+};
+
+console.log("stockCar:", stockCar);
 
 /*
    Add new property inside a function
@@ -68,6 +163,13 @@ An empty object
    the value at `name`, and just the value at `age`.
  */
 
+  var plainPerson = ();
+
+function buildPerson (person, nameString, age){
+
+  var name = (nameString);
+  var newAge = (age);
+}
 
 /*
    Display values of objects that are inside an array
